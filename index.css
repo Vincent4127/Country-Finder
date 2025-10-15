@@ -1,6 +1,9 @@
 body{
     background-color: midnightblue;
-    font-family:cursive;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif;
 }
 
 h1{
@@ -25,7 +28,7 @@ span{
 select{
     width : 250px;
     height: 50px;
-    font-family:cursive;
+    
     color: black;
     font-size: 20px;
 }
@@ -39,7 +42,6 @@ img{
 button{
     width : 100px;
     height: 40px;
-    font-family:cursive;
     color: black;
     font-size: 20px;
     border-radius: 10px;
@@ -49,7 +51,6 @@ button{
 #Display{
     width : 150px;
     height: 100px;
-    font-family:cursive;
     color: black;
     font-size: 20px;
     border-radius: 10px;
@@ -60,7 +61,6 @@ button{
 #countryInput{
     width : 250px;
     height: 40px;
-    font-family:cursive;
     color: black;
     font-size: 20px;
     border-radius: 10px;
