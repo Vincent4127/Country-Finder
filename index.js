@@ -58,7 +58,7 @@ function searchCountry() {
         .then(response => response.json())
         .then((json) => {
             (json).forEach(country => {
-                if (search === country.name.common) {
+                if (search.toLowerCase() === country.name.common.toLowerCase()) {
                     alert(`${country.name.common}, \n Capital: ${country.capital}, \n Region: ${country.region}`);
                 }
 
