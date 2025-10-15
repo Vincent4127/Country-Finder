@@ -1,0 +1,68 @@
+body{
+    background-color: midnightblue;
+    font-family:cursive;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+div{
+    text-align: center;
+    font-family:cursive;
+    color: white;
+    
+
+}
+
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+select{
+    width : 250px;
+    height: 50px;
+    font-family:cursive;
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+button{
+    width : 100px;
+    height: 40px;
+    font-family:cursive;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Display{
+    width : 150px;
+    height: 100px;
+    font-family:cursive;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#countryInput{
+    width : 250px;
+    height: 40px;
+    font-family:cursive;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
