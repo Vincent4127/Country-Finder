@@ -1,5 +1,5 @@
 body{
-    background-color: midnightblue;
+    background-color: darkgreen;
 }
 
 *{
@@ -8,27 +8,27 @@ body{
 
 h1{
     text-align: center;
-    color: white;
+    color: goldenrod;
 }
 
 div{
-    text-align: center;
-    font-family:cursive;
-    color: white;
-    
+    /* text-align: center; */
+    color: goldenrod;
 
 }
 
 span{
-    color: white;
-    font-size: 20px;
+    color: goldenrod;
+    font-size: 30px;
     font-weight: bold;
+    margin-right: 60px;
+    margin-left: 250px;
 }
 
 select{
     width : 250px;
     height: 50px;
-    
+    margin-left: 50px;
     color: black;
     font-size: 20px;
 }
@@ -37,25 +37,30 @@ img{
     width: 200px;
     height: 150px;
     border-radius: 20px;
+    margin-left: 35px;
+    margin-bottom: 10px;
 }
 
 button{
     width : 100px;
     height: 40px;
     color: black;
+    background-color: goldenrod;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 100px;
+    width : 250px;
+    height: 50px;
 }
 
 #Display{
-    width : 150px;
-    height: 100px;
     color: black;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 575px;
 }
 
 #countryInput{
@@ -65,4 +70,6 @@ button{
     font-size: 20px;
     border-radius: 10px;
     text-align: center;
+    margin-left: 60px;
 }
+
